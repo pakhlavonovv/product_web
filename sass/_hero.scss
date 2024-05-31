@@ -1,0 +1,34 @@
+.hero{
+    .hero__inner{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hero__left{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hero__title{
+        width: 518px;
+        color: white;
+    }
+    .hero__p{
+        width: 458px;
+        color: white;
+        font-size: 18px;
+    }
+    .hero__btn{
+        width: 175px;
+        height: 43px;
+        background-color: #02897A;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        transition: all ease 0.3s;
+    } .hero__btn:hover{
+        border: 1px solid white;
+        background-color: transparent;
+    }
+}

@@ -1,0 +1,35 @@
+.documentation{
+    margin-top: 100px;
+    .documentation__inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .documentation__title{
+            color: white;
+        }
+        .documentation__desc{
+            width: 486px;
+            color: white;
+        }
+     }
+     .documentation__second{
+        margin-top: 150px;
+     }
+     .right__documentation{
+        margin-right: 100px;
+     }
+     .documentation__third{
+        margin-top: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+     }
+     .documentation__desc__withimg{
+        display: flex;
+        align-items: center;
+     }
+     .documentation__desc__withimg p{
+        margin-top: 15px;
+        margin-left: 20px;
+     }
+}
