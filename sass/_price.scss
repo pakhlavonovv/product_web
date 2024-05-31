@@ -1,0 +1,111 @@
+.price {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+    .price__card {
+        width: 30%;
+        height: 600px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 40px;
+        border-radius: 10px;
+        transition: all 0.4s linear;
+        .main__price{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .price__linear{
+            justify-content: center;
+            align-items: center;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 40px;
+            color: #22343D;
+
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 40px;
+            color: #22343D;
+        }
+
+        .price_numbers {
+            gap: 3px;
+            h1 {
+                font-size: 76px;
+                line-height: 100px;
+                color: #04867b;
+            }
+
+            h2 {
+                font-size: 24px;
+                line-height: 30px;
+                color: #04867b;
+
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: 0.10000000149011612px;
+                color: #AFAFAF;
+
+            }
+        }
+    }
+
+
+
+
+    button {
+        width: 175px;
+        height: 43px ;
+        background-color: #02897A;
+        padding: 15px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        transition: all ease 0.3s;
+    }
+
+    button:hover {
+        color: black;
+        border: 1px solid white;
+        background-color: white;
+
+    }
+
+    .price__card:hover {
+        background-color: #04867b;
+
+    }
+
+    .price__card:hover h1 {
+        color: #DDE4E4;
+    }
+
+    .price__card:hover h2 {
+        color: #DDE4E4;
+    }
+
+    .price__card:hover p {
+        color: #DDE4E4;
+    }
+
+    .price__card:hover button {
+        border: 1px solid #fff;
+    }
+}
