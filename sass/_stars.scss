@@ -1,0 +1,26 @@
+.stars{
+    .stars__cards__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .star__cards{
+        margin-top: 50px;
+        width: 327px;
+        height: 236px;
+        background-color: white;
+        border-radius: 5px;
+        padding: 30px;
+        .stars__card__title__info{
+            padding-top: 10px;
+        }
+        .star__person__card{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .stars__person__fn{
+            color: #02897A;
+        }
+    }
+}

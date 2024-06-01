@@ -6,7 +6,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
     // font-family: "Poppins", sans-serif;
     // font-weight: 500;
@@ -18,4 +18,9 @@ ul,ol{
 }
 a{
     text-decoration: none;
+}
+.df{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

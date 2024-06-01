@@ -1,0 +1,39 @@
+.join{
+    width: 968px;
+    height: 345px;
+    background-color: #02897A;
+    border-radius: 32px;
+    margin: 0 auto;
+    margin-top: 150px;
+    .join__wrapper{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+    .join__left{
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+        gap: 30px;
+        .join__btn{
+            width: 150px;
+            height: 50px;
+            background-color: white;
+            color: #02897A;
+            font-size: 20px;
+            border-radius: 8px;
+            border: none;
+            transition: all ease 0.4s;
+        }
+        .join__btn:hover{
+            border: 1px solid white;
+            background-color: transparent;
+            color: white;
+        }
+        .join__title{
+            color: white;
+            width: 510px;
+            font-size: 32px;
+        }
+    }
+}

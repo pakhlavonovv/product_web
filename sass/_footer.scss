@@ -1,0 +1,66 @@
+.footer{
+    margin-top: 150px;
+    .footer__resource__part{
+        margin-top: 110px;
+    }
+    .footer__legal__part{
+        margin-top: 110px;
+    }
+    .footer__signUp__part{
+        margin-top: 90px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    .logo__name{
+        margin-top: 3px;
+        color: white;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .footer__network__btns{
+        margin-top: 10px;
+        display: flex;
+        gap: 20px;
+    }
+    .footer__btn{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
+        transition: all ease 0.4s;
+    }
+    .footer__btn:hover{
+        box-shadow: 0 0 50px 0 #02897A;
+        transform: translateY(-5px);
+    }
+    .footer__nav a{
+        color: white;
+    }
+    .footer__signUp__part__title{
+        color: white;
+        width: 280px;
+    }
+    .textarea__footer{
+        width: 325px;
+        height: 48px;
+        outline: none;
+        resize: none;
+    }
+    .footer__signUp__btn{
+        width: 131px;
+        height: 39px;
+        background-color: #02897A;
+        margin-top: 10px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        transition: all ease 0.3s;
+    }
+    .footer__signUp__btn:hover{
+        border: 1px solid white;
+        background-color: transparent;
+    }
+}

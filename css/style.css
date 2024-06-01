@@ -6,7 +6,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-style: normal;
   background-color: #1F2E35;
 }
@@ -19,11 +19,18 @@ a {
   text-decoration: none;
 }
 
+.df {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .header {
   width: 100%;
   height: 100px;
   display: flex;
   justify-content: center;
+  position: sticky;
 }
 
 .navbar {
@@ -56,6 +63,11 @@ a {
 }
 .navbar .nav-item .nav-link {
   color: white;
+  border-bottom: white;
+  transition: all 0.4s;
+}
+.navbar .nav-item .nav-link:hover {
+  border-bottom: 1px solid;
 }
 .navbar .btn {
   width: 110px;
@@ -241,7 +253,7 @@ a {
   gap: 10px;
   padding: 40px;
   border-radius: 10px;
-  transition: all 0.4s linear;
+  transition: all ease 0.5s;
 }
 .price .price__card .main__price {
   display: flex;
@@ -314,4 +326,151 @@ a {
 }
 .price .price__card:hover button {
   border: 1px solid #fff;
+}
+
+.stars {
+  margin-top: 100px;
+}
+.stars .stars__title p {
+  width: 537px;
+  margin: 0 auto;
+}
+.stars .stars__title {
+  text-align: center;
+  color: white;
+}
+.stars .stars__title h2 {
+  font-size: 34px;
+}
+
+.stars .stars__cards__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.stars .star__cards {
+  margin-top: 50px;
+  width: 327px;
+  height: 236px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+}
+.stars .star__cards .stars__card__title__info {
+  padding-top: 10px;
+}
+.stars .star__cards .star__person__card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.stars .star__cards .stars__person__fn {
+  color: #02897A;
+}
+
+.join {
+  width: 968px;
+  height: 345px;
+  background-color: #02897A;
+  border-radius: 32px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.join .join__wrapper {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.join .join__left {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  gap: 30px;
+}
+.join .join__left .join__btn {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  color: #02897A;
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+  transition: all ease 0.4s;
+}
+.join .join__left .join__btn:hover {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+.join .join__left .join__title {
+  color: white;
+  width: 510px;
+  font-size: 32px;
+}
+
+.footer {
+  margin-top: 150px;
+}
+.footer .footer__resource__part {
+  margin-top: 110px;
+}
+.footer .footer__legal__part {
+  margin-top: 110px;
+}
+.footer .footer__signUp__part {
+  margin-top: 90px;
+}
+.footer .logo {
+  display: flex;
+  align-items: center;
+}
+.footer .logo__name {
+  margin-top: 3px;
+  color: white;
+  font-size: 30px;
+  margin-left: 10px;
+}
+.footer .footer__network__btns {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+.footer .footer__btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: all ease 0.4s;
+}
+.footer .footer__btn:hover {
+  box-shadow: 0 0 50px 0 #02897A;
+  transform: translateY(-5px);
+}
+.footer .footer__nav a {
+  color: white;
+}
+.footer .footer__signUp__part__title {
+  color: white;
+  width: 280px;
+}
+.footer .textarea__footer {
+  width: 325px;
+  height: 48px;
+  outline: none;
+  resize: none;
+}
+.footer .footer__signUp__btn {
+  width: 131px;
+  height: 39px;
+  background-color: #02897A;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: all ease 0.3s;
+}
+.footer .footer__signUp__btn:hover {
+  border: 1px solid white;
+  background-color: transparent;
 }
