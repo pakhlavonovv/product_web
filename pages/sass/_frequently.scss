@@ -1,0 +1,44 @@
+.frequently{
+    .frequently__info{
+        margin-top: 100px;
+        text-align: center;
+        color: white;
+    }
+    .frequently__options{
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px solid #474747;
+    }
+
+    .frequently__option__info{
+        color: white;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .frequently__options__second{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+    }
+    .frequently__options__third{
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+    .frequently__options__third__info{
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .frequently__last__option{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+    .frequently__last__option__info{
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+}
