@@ -1,0 +1,111 @@
+header{
+    .header__nav{
+        background-color: #1F2E35;
+        position: sticky;
+        top: 0;
+        padding: 26px 0;
+    }
+    .nav-items{
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+    .nav__links{
+        display: flex;
+        gap: 24px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;   
+        .logo__name{
+            font-size: 23px;
+            margin-left: 15px;
+            color: white;
+            text-decoration: none;
+        }    
+    } 
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        .nav-actions{
+            display: flex;
+            align-items: center;
+            gap: 24px;
+        }
+    }
+    .nav__links a{
+        color: white;
+        text-decoration: none;
+        padding: 5px;
+        border-bottom: white;
+        transition: all 0.4s;
+    }
+    .nav__links a:hover{
+        border-bottom: 1px solid ;
+    }
+    .nav-auth{
+        display: none;
+    }
+    .nav-auth__item{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: #7a7979;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+    button{
+        width: 103px;
+        height: 43px;
+    }
+    .signIn{
+        border-radius: 5px;
+        color: white;
+        font-size: 18px;
+        background-color: transparent;
+        cursor: pointer;
+        border-color: #BCD0E5;
+    }
+    .signUp{
+        cursor: pointer;
+        border-radius: 5px;
+        color: white;
+        font-size: 18px;
+        border: none;
+        background-color: #02897A;
+    }
+    .nav-menu{
+        display: none;
+    }
+}
+
+@media (max-width:1030px) {
+    .header__nav{
+        .nav-items{
+            .nav__links{
+                display: none;
+            }
+            .nav-menu{
+                display: block;
+            }
+            .nav-actions{
+                display: flex;
+                gap: 16px;
+            }
+        }
+    }
+}
+@media (max-width:768px) {
+    .header__nav{
+        .nav-items{
+            button{
+                display: none;
+            }
+            .nav-auth{
+                display: block;
+            }
+        }
+    }
+}

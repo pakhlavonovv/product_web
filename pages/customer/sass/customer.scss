@@ -1,0 +1,36 @@
+@use "./navbar";
+@use "./clients";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #1F2E35;
+}
+.container{
+    padding: 0 150px;
+}
+
+@media (max-width: 1400px) {
+    .container{
+        padding: 0 120px;
+    }
+}
+@media (max-width: 1200px) {
+    .container{
+        padding: 0 60px;
+    }
+}
+@media (max-width: 1030px) {
+    .container{
+        padding: 0 20px;
+    }
+}

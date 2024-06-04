@@ -1,0 +1,46 @@
+.clients{
+    .clients__title{
+        margin-top: 60px;
+        color: white;
+        font-size:30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .clients__logo{
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@keyframes slideInAndOut {
+    0% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(100vw);
+    }
+    100% {
+      transform: translateX(200vw);
+    }
+  }
+  .clients__logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: slideInAndOut 10s linear infinite;
+  }
+
+
+@media (max-width: 1400px) {
+    .clients__logo{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
