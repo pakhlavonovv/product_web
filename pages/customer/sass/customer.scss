@@ -1,7 +1,9 @@
 @use "./navbar";
 @use "./clients";
-
-
+@use "./choose";
+@use "./work";
+@use "./join";
+@use "./second_join";
 
 *{
     margin: 0;

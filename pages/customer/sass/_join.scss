@@ -1,0 +1,36 @@
+.join{
+    margin-top: 100px;
+    height: 626px;
+    background-color: #22343D;
+    .join__title{
+        padding: 50px 20px;
+        color: white;
+        text-align: center;
+    }
+    .join__info{
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 150px;
+        .join__desc{
+            text-align: center;
+            width: 200px;
+            color: white;
+        }
+    }
+    .join__info img{
+        width: 150px;
+        height: 150px;
+    }
+    .join__card img{
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 590px) {
+    .join{
+        height: 1137px;
+    }
+}
