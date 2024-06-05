@@ -231,7 +231,7 @@ header .nav-menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 100px;
+  gap: 150px;
 }
 .work .right__work {
   color: white;
@@ -352,6 +352,11 @@ header .nav-menu {
   font-size: 32px;
 }
 
+@media (max-width: 978px) {
+  .join__second {
+    flex-wrap: wrap;
+  }
+}
 * {
   margin: 0;
   padding: 0;
